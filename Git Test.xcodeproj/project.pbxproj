@@ -21,6 +21,7 @@
 		3FEB96441942766A00A7ED95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEB96261942766A00A7ED95 /* UIKit.framework */; };
 		3FEB964C1942766A00A7ED95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB964A1942766A00A7ED95 /* InfoPlist.strings */; };
 		3FEB964E1942766A00A7ED95 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB964D1942766A00A7ED95 /* Git_TestTests.m */; };
+		3FEB965919427C1300A7ED95 /* ELTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB965819427C1300A7ED95 /* ELTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3FEB96491942766A00A7ED95 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		3FEB964B1942766A00A7ED95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FEB964D1942766A00A7ED95 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3FEB965719427C1300A7ED95 /* ELTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELTest.h; sourceTree = "<group>"; };
+		3FEB965819427C1300A7ED95 /* ELTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				3FEB96381942766A00A7ED95 /* ELViewController.m */,
 				3FEB963A1942766A00A7ED95 /* Images.xcassets */,
 				3FEB96291942766A00A7ED95 /* Supporting Files */,
+				3FEB965719427C1300A7ED95 /* ELTest.h */,
+				3FEB965819427C1300A7ED95 /* ELTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FEB965919427C1300A7ED95 /* ELTest.m in Sources */,
 				3FEB96391942766A00A7ED95 /* ELViewController.m in Sources */,
 				3FEB962F1942766A00A7ED95 /* main.m in Sources */,
 				3FEB96331942766A00A7ED95 /* ELAppDelegate.m in Sources */,
